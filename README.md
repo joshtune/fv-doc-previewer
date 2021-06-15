@@ -1,20 +1,28 @@
-#Svelte PDFTron Doc Previewer
+# Svelte PDFTron Doc Previewer
 
-Here is the sample requested.
-
+## Prerequisites
+Make sure you have the following installed.
+- Node v12.22.0
+- Yarn 1.22.10
 
 ## Setup
 1. Clone this repo
-2. In project root create `env.ts` with your license key in it
+```shell
+git clone https://github.com/joshtune/fv-doc-previewer.git
+```
+2. Run `yarn` in the root of the project to install dependencies
+
+## Add Licence File
+In project root directory create a file named `env.ts` with your license key in it like
 ```typescript
 export const LICENSE_KEY = 'LICENSE_KEY_HERE';
 ```
-3. Run `yarn` in the root of the project
-4. Run `yarn build` to build project
 
-## Run Project
-1. Run `yarn dev` to run project
-2. Before you go to http://localhost:5000/.  Make sure you have your task manager open
+## Run Project and see the bug
+1. Open your task manager and focus on CPU.  For the sake of screenshots below I use a windows machine.
+2. Run `yarn build` to build project
+3. Run `yarn dev` to run project
+4. Go to http://localhost:5000/
 
 ![Screenshot 1](./public/doc-screenshot-1.png)
 
@@ -22,7 +30,7 @@ Here you should notice a spike in CPU
 
 ![Screenshot 3](./public/doc-screenshot-3.png)
 
-3. Click on `Sample Local File 0` or `Sample Local File 1` and you should notice the CPU spike is less dramatic
+5. Click on `Sample Local File 0` or `Sample Local File 1` and you should notice the CPU spike is less dramatic
 
 ![Screenshot 2](./public/doc-screenshot-2.png)
 
