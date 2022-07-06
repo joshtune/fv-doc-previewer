@@ -24,8 +24,8 @@ export const LICENSE_KEY = 'LICENSE_KEY_HERE';
 3. Run `yarn dev` to run project
 4. Go to http://localhost:5000/
 
-![Screenshot 1](./public/doc-screenshot-1.png)
+![Screenshot 1](docs/doc-screenshot-1.png)
 
 5. Click on `Sample Local File 0` or `Sample Local File 1` and you should see document load
 
-![Screenshot 2](./public/doc-screenshot-2.png)
+![Screenshot 2](docs/doc-screenshot-2.png)
