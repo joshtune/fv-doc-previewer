@@ -23,10 +23,10 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@pdftron/webviewer@7.3.1-20210504":
-  version "7.3.1-20210504"
-  resolved "https://registry.yarnpkg.com/@pdftron/webviewer/-/webviewer-7.3.1-20210504.tgz#58a7fcd1277b23fe2ea1d744a1cce22ae423e435"
-  integrity sha512-K5t/dvu9bzReCd+2F25WmZU3j+gjD+QEryJL9ElDogn2Bj2+W36Wi92onwP8DshdoH/FJaH9TAqEh1IpElQRYw==
+"@pdftron/webviewer@8.3.0-20220120":
+  version "8.3.0-20220120"
+  resolved "https://registry.yarnpkg.com/@pdftron/webviewer/-/webviewer-8.3.0-20220120.tgz#5e375a7471080cef34f67917f415e6c759ef25a0"
+  integrity sha512-2qbI/FUj6ADW18MaVVekhlWSZQ7V8mpTtjQ1RhetbLboVyfYURQmo31lvyJDcMj/9bDAFKBnznb390a4UaZU8w==
 
 "@polka/url@^1.0.0-next.15":
   version "1.0.0-next.15"

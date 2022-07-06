@@ -1,5 +1,6 @@
 <script lang="ts">
-    import WebViewer, {getInstance, WebViewerInstance} from "@pdftron/webviewer";
+    import WebViewer, {WebViewerInstance} from "@pdftron/webviewer";
+    import getInstance from "@pdftron/webviewer";
     import {afterUpdate, onMount} from "svelte";
     import {LICENSE_KEY} from "../env";
 

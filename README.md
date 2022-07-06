@@ -23,25 +23,3 @@ export const LICENSE_KEY = 'LICENSE_KEY_HERE';
 2. Run `yarn build` to build project
 3. Run `yarn dev` to run project
 4. Go to http://localhost:5000/
-
-![Screenshot 1](./public/doc-screenshot-1.png)
-
-Here you should notice a spike in CPU
-
-![Screenshot 3](./public/doc-screenshot-3.png)
-
-5. Click on `Sample Local File 0` or `Sample Local File 1` and you should notice the CPU spike is less dramatic
-
-![Screenshot 2](./public/doc-screenshot-2.png)
-
-NOTE: My computer is not ideal for real life scenarios since it is a high performance machine for development.
-
-## Code Explained
-All code is in file `./src/App.svelte`.
-
-On app initial load `onMount` is called and will load `WebViewer`.  Everytime you select a file `afterUpdate` will be called and trigger 
-```typescript
-webViewerInstance?.loadDocument(documentItem.downloadLink, {
-    filename: documentItem.fileName,
-});
-```
