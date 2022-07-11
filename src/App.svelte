@@ -19,11 +19,11 @@
 
     const documentItems: DocumentItem[] = [
         {
-            downloadLink: '/files/sample-file-0.pdf',
+            downloadLink: 'https://joshtune.github.io/fv-doc-previewer/files/sample-file-0.pdf',
             fileName: 'File 1'
         },
         {
-            downloadLink: '/files/sample-file-1.pdf',
+            downloadLink: 'https://joshtune.github.io/fv-doc-previewer/files/sample-file-1.pdf',
             fileName: 'File 2'
         }
     ]
@@ -59,7 +59,7 @@
         if (licenseValue?.length) {
             webViewerInitializing = true;
             WebViewer({
-                path: 'pdf',
+                path: 'https://joshtune.github.io/fv-doc-previewer/pdf',
                 preloadWorker: 'all',
                 fullAPI: true,
                 ui: 'default',

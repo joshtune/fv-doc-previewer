@@ -411,7 +411,7 @@ var app = (function () {
     			}
 
     			each_1_anchor = empty();
-    			add_location(h4, file, 89, 4, 3308);
+    			add_location(h4, file, 89, 4, 3438);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h4, anchor);
@@ -497,10 +497,10 @@ var app = (function () {
     			set_style(textarea, "width", "100%");
     			set_style(textarea, "border", "1px solid #8fa5c7");
     			textarea.disabled = /*webViewerInitialized*/ ctx[0];
-    			add_location(textarea, file, 80, 4, 2905);
+    			add_location(textarea, file, 80, 4, 3035);
     			button.disabled = button_disabled_value = !/*licenseValue*/ ctx[2]?.length;
-    			add_location(button, file, 83, 4, 3118);
-    			add_location(hr, file, 87, 4, 3287);
+    			add_location(button, file, 83, 4, 3248);
+    			add_location(hr, file, 87, 4, 3417);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, textarea, anchor);
@@ -588,7 +588,7 @@ var app = (function () {
     			button = element("button");
     			t0 = text(t0_value);
     			t1 = space();
-    			add_location(button, file, 91, 8, 3376);
+    			add_location(button, file, 91, 8, 3506);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -670,11 +670,11 @@ var app = (function () {
     			if_block.c();
     			t2 = space();
     			div = element("div");
-    			add_location(h1, file, 77, 0, 2849);
+    			add_location(h1, file, 77, 0, 2979);
     			attr_dev(div, "id", "document-viewer");
     			set_style(div, "height", "84vh");
     			set_style(div, "border", "1px solid #8fa5c7");
-    			add_location(div, file, 97, 0, 3490);
+    			add_location(div, file, 97, 0, 3620);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -734,11 +734,11 @@ var app = (function () {
 
     	const documentItems = [
     		{
-    			downloadLink: "/files/sample-file-0.pdf",
+    			downloadLink: "https://joshtune.github.io/fv-doc-previewer/files/sample-file-0.pdf",
     			fileName: "File 1"
     		},
     		{
-    			downloadLink: "/files/sample-file-1.pdf",
+    			downloadLink: "https://joshtune.github.io/fv-doc-previewer/files/sample-file-1.pdf",
     			fileName: "File 2"
     		}
     	];
@@ -777,7 +777,7 @@ var app = (function () {
 
     			WebViewer(
     				{
-    					path: "pdf",
+    					path: "https://joshtune.github.io/fv-doc-previewer/pdf",
     					preloadWorker: "all",
     					fullAPI: true,
     					ui: "default",
